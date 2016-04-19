@@ -1,9 +1,16 @@
 {
     "name": "subugoe/gdz-site",
     "description": "GDZ Website",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        }
+    ],
     "require": {
         "typo3/cms": "^8.0",
-        "subugoe/find": "@dev"
+        "subugoe/find": "@dev",
+        "typo3-ter/t3jquery": "@dev"
     },
     "license": "AGPL",
     "authors": [

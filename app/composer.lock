@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3be1bbe2867d3b72d1061fb83409caee",
-    "content-hash": "6946671ff156108ee9eae78d099967f9",
+    "hash": "c08b76169d014a56ac8cc2d2eed92c95",
+    "content-hash": "3f05afa72461e304da3b88952a543655",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -679,6 +679,44 @@
             "time": "2016-01-20 09:13:37"
         },
         {
+            "name": "typo3-ter/t3jquery",
+            "version": "2.6.1",
+            "dist": {
+                "type": "t3x",
+                "url": "https://typo3.org/extensions/repository/download/t3jquery/2.6.1/t3x/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">= 5.0.0",
+                "typo3/cms-core": ">= 4.3.0"
+            },
+            "replace": {
+                "t3jquery": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "classmap": [
+                    ""
+                ],
+                "exclude-from-classmap": [
+                    "Tests",
+                    "tests",
+                    "class.ext_update.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Juergen Furrer",
+                    "email": "juergen.furrer@gmail.com",
+                    "company": "",
+                    "username": "themes"
+                }
+            ],
+            "description": "Provides a shared version of the jQuery Javascript framework for use in other extensions. See class.tx_t3jquery.php for API and usage. Includes BE module to configure the used parts of jQuery UI, jQuery TOOLS and Bootstrap.",
+            "time": "2013-02-15 00:12:25"
+        },
+        {
             "name": "typo3/class-alias-loader",
             "version": "1.0.0",
             "source": {
@@ -1050,7 +1088,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "subugoe/find": 20
+        "subugoe/find": 20,
+        "typo3-ter/t3jquery": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
