@@ -2,7 +2,8 @@
     "name": "subugoe/gdz-site",
     "description": "GDZ Website",
     "require": {
-        "typo3/cms": "^8.0"
+        "typo3/cms": "^8.0",
+        "subugoe/find": "@dev"
     },
     "license": "AGPL",
     "authors": [

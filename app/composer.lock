@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1b401c340a63eeb9badacc3353302b2b",
-    "content-hash": "6ae2c01a7c97cd6bd85cf8f22814495a",
+    "hash": "3be1bbe2867d3b72d1061fb83409caee",
+    "content-hash": "6946671ff156108ee9eae78d099967f9",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -416,6 +416,46 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "subugoe/find",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/subugoe/typo3-find.git",
+                "reference": "c8d5f2734d608f71af9c76673a5165d9384afae0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/subugoe/typo3-find/zipball/c8d5f2734d608f71af9c76673a5165d9384afae0",
+                "reference": "c8d5f2734d608f71af9c76673a5165d9384afae0",
+                "shasum": ""
+            },
+            "replace": {
+                "subgoe/find": "*",
+                "typo3-ter/find": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6",
+                "solarium/solarium": "~3.3"
+            },
+            "type": "typo3-cms-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sven-S. Porst, Ingo Pfennigstorf",
+                    "email": "pfennigstorf@sub.uni-goettingen.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A frontend for Solr indexes",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "time": "2016-01-13 12:32:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1009,7 +1049,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "subugoe/find": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
