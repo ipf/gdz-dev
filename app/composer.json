@@ -9,8 +9,7 @@
     ],
     "require": {
         "typo3/cms": "^8.0",
-        "subugoe/find": "@dev",
-        "typo3-ter/t3jquery": "@dev"
+        "subugoe/find": "@dev"
     },
     "license": "AGPL",
     "authors": [
