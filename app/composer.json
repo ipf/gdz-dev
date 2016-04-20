@@ -5,6 +5,10 @@
         {
             "type": "composer",
             "url": "https://composer.typo3.org/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/subugoe/typo3_tmpl-gdz"
         }
     ],
     "require": {
