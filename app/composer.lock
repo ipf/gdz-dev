@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b5ee5bfd06d4b183ae64ea5324662e7",
-    "content-hash": "c949700dc071e90316b9a4ec77880d98",
+    "hash": "a558466b15c4551905d15e19d87ce8ae",
+    "content-hash": "2738cc44dda041f0581e247f0e49b6c4",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -456,6 +456,37 @@
                 "TYPO3 CMS"
             ],
             "time": "2016-01-13 12:32:35"
+        },
+        {
+            "name": "subugoe/tmpl-gdz",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/subugoe/typo3_tmpl-gdz.git",
+                "reference": "02992543dc8e96e67a8ccf04efc902fe3af4b219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/02992543dc8e96e67a8ccf04efc902fe3af4b219",
+                "reference": "02992543dc8e96e67a8ccf04efc902fe3af4b219",
+                "shasum": ""
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ingo Pfennigstorf",
+                    "email": "i.pfennigstorf@gmail.com"
+                }
+            ],
+            "description": "Website template for gdz",
+            "support": {
+                "source": "https://github.com/subugoe/typo3_tmpl-gdz/tree/master",
+                "issues": "https://github.com/subugoe/typo3_tmpl-gdz/issues"
+            },
+            "time": "2016-04-20 08:30:34"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1050,7 +1081,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "subugoe/find": 20
+        "subugoe/find": 20,
+        "subugoe/tmpl-gdz": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
