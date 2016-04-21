@@ -71,6 +71,18 @@ shell:
 root:
 	docker exec -it -u root $$(docker-compose ps -q app) /bin/bash
 
+
+#############################
+# gdz
+#############################
+
+gdz-install:
+	docker-compose up -d
+	cd app
+	docker exec --user=application gdz_app_1  /docker/app/composer.phar install
+	docker exec gdz_app_1 chown -R application:application /docker/app/
+
+
 #############################
 # Argument fix workaround
 #############################
