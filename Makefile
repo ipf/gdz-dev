@@ -78,7 +78,7 @@ root:
 
 gdz-install:
 	docker-compose up -d
-	cd app
+	touch app/FIRST_INSTALL
 	docker exec --user=application gdz_app_1  /docker/app/composer.phar install
 	docker exec gdz_app_1 chown -R application:application /docker/app/
 
