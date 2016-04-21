@@ -8,7 +8,7 @@ Use the terminal to change into this directory and use the following commands:
 
 ```cd app```
 
-```composer install```
+```docker exec gdz_app_1 /docker/app/composer.phar install```
 
 
 # Credits
