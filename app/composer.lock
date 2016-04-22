@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a558466b15c4551905d15e19d87ce8ae",
-    "content-hash": "2738cc44dda041f0581e247f0e49b6c4",
+    "hash": "33639b06c26a5b2e2925f77caf6fc74d",
+    "content-hash": "dad25742a7063405361353e1dffd4de8",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -467,7 +467,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/02992543dc8e96e67a8ccf04efc902fe3af4b219",
+                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/62a51683f1e4a4ef297647543ab71d4faea70c36",
                 "reference": "02992543dc8e96e67a8ccf04efc902fe3af4b219",
                 "shasum": ""
             },
@@ -708,6 +708,43 @@
                 "shim"
             ],
             "time": "2016-01-20 09:13:37"
+        },
+        {
+            "name": "typo3-ter/realurl",
+            "version": "2.0.14",
+            "dist": {
+                "type": "t3x",
+                "url": "https://typo3.org/extensions/repository/download/realurl/2.0.14/t3x/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">= 5.3.2, <= 7.0.999",
+                "typo3/cms-core": ">= 6.2.0, <= 8.0.999"
+            },
+            "conflict": {
+                "typo3-ter/cooluri": "*",
+                "typo3-ter/simulatestatic": "*"
+            },
+            "replace": {
+                "realurl": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "DmitryDulepov\\Realurl\\": "Classes"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Dmitry Dulepov",
+                    "email": "dmitry.dulepov@gmail.com",
+                    "company": "",
+                    "username": "dmitry"
+                }
+            ],
+            "description": "Makes TYPO3 URLs search engine friendly. Donations are welcome to dmitry.dulepov@gmail.com. They help to support the extension!",
+            "time": "2016-04-18 18:57:24"
         },
         {
             "name": "typo3/class-alias-loader",
