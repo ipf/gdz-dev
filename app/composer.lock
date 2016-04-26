@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33639b06c26a5b2e2925f77caf6fc74d",
+    "hash": "05773ba071796ab3737a29b6b3be34ad",
     "content-hash": "dad25742a7063405361353e1dffd4de8",
     "packages": [
         {
@@ -463,12 +463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/subugoe/typo3_tmpl-gdz.git",
-                "reference": "02992543dc8e96e67a8ccf04efc902fe3af4b219"
+                "reference": "d22c610d03485f16cbc3b2675c161802456840de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/62a51683f1e4a4ef297647543ab71d4faea70c36",
-                "reference": "02992543dc8e96e67a8ccf04efc902fe3af4b219",
+                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/d22c610d03485f16cbc3b2675c161802456840de",
+                "reference": "d22c610d03485f16cbc3b2675c161802456840de",
                 "shasum": ""
             },
             "type": "typo3-cms-extension",
@@ -486,7 +486,7 @@
                 "source": "https://github.com/subugoe/typo3_tmpl-gdz/tree/master",
                 "issues": "https://github.com/subugoe/typo3_tmpl-gdz/issues"
             },
-            "time": "2016-04-20 08:30:34"
+            "time": "2016-04-26 08:11:54"
         },
         {
             "name": "swiftmailer/swiftmailer",

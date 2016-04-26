@@ -23,5 +23,10 @@
             "name": "Ingo Pfennigstorf",
             "email": "i.pfennigstorf@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Subugoe\\Find\\": "typo3conf/ext/find/Classes"
+        }
+    }
 }
