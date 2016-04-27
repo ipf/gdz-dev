@@ -493,17 +493,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/subugoe/typo3-find.git",
-                "reference": "c8d5f2734d608f71af9c76673a5165d9384afae0"
+                "reference": "b21416b956a84eb3f8cd5f344208d9f632322343"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/subugoe/typo3-find/zipball/b21416b956a84eb3f8cd5f344208d9f632322343",
-                "reference": "c8d5f2734d608f71af9c76673a5165d9384afae0",
+                "reference": "b21416b956a84eb3f8cd5f344208d9f632322343",
                 "shasum": ""
             },
             "replace": {
-                "subgoe/find": "*",
-                "typo3-ter/find": "*"
+                "subugoe/find": "self.version",
+                "typo3-ter/find": "self.version"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.6",
@@ -525,7 +525,7 @@
             "keywords": [
                 "TYPO3 CMS"
             ],
-            "time": "2016-01-13 12:32:35"
+            "time": "2016-04-26 10:45:21"
         },
         {
             "name": "subugoe/tmpl-gdz",
@@ -533,12 +533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/subugoe/typo3_tmpl-gdz.git",
-                "reference": "d22c610d03485f16cbc3b2675c161802456840de"
+                "reference": "74f23e40ef4b839b754fef56cc25d551c38ef06c"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/74f23e40ef4b839b754fef56cc25d551c38ef06c",
-                "reference": "d22c610d03485f16cbc3b2675c161802456840de",
+                "reference": "74f23e40ef4b839b754fef56cc25d551c38ef06c",
                 "shasum": ""
             },
             "type": "typo3-cms-extension",
@@ -556,7 +556,7 @@
                 "source": "https://github.com/subugoe/typo3_tmpl-gdz/tree/master",
                 "issues": "https://github.com/subugoe/typo3_tmpl-gdz/issues"
             },
-            "time": "2016-04-26 08:11:54"
+            "time": "2016-04-26 12:21:43"
         },
         {
             "name": "swiftmailer/swiftmailer",
