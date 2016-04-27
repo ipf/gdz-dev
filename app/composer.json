@@ -15,7 +15,8 @@
         "typo3/cms": "^8.0",
         "subugoe/find": "@dev",
         "subugoe/tmpl-gdz": "@dev",
-        "typo3-ter/realurl": "^2.0"
+        "typo3-ter/realurl": "^2.0",
+        "helhum/typo3-console": "^2.0"
     },
     "license": "AGPL",
     "authors": [

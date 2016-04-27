@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05773ba071796ab3737a29b6b3be34ad",
-    "content-hash": "dad25742a7063405361353e1dffd4de8",
+    "hash": "bafc02f98cfb6fae8cf2d5cd17c34969",
+    "content-hash": "e1d86290c9da66504a83ee07e04d8a5b",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -111,6 +111,76 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "helhum/typo3-console",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helhum/typo3_console.git",
+                "reference": "eee742ec962898e1269d11f087e463d25d81a244"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helhum/typo3_console/zipball/eee742ec962898e1269d11f087e463d25d81a244",
+                "reference": "eee742ec962898e1269d11f087e463d25d81a244",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phar": "*",
+                "symfony/console": ">=2.7 || <3.1",
+                "symfony/process": ">=2.7 || <3.1",
+                "typo3/cms-core": "^7.6 || ~8.0.0"
+            },
+            "replace": {
+                "typo3-ter/typo3-console": "self.version",
+                "typo3_console": "self.version"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.6.0",
+                "namelesscoder/typo3-repository-client": "1.1.x-dev",
+                "phpunit/phpunit": "~4.8.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web",
+                    "Package": {
+                        "partOfMinimalUsableSystem": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Helhum\\Typo3Console\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Helmut Hummel",
+                    "email": "info@helhum.io",
+                    "homepage": "http://helhum.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A reliable and powerful command line interface for TYPO3 CMS",
+            "homepage": "http://insight.helhum.io/post/104528981610/about-the-beauty-and-power-of-typo3-console",
+            "keywords": [
+                "cli",
+                "command",
+                "commandline",
+                "console",
+                "typo3"
+            ],
+            "time": "2016-04-25 15:38:51"
         },
         {
             "name": "mso/idna-convert",
@@ -427,7 +497,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subugoe/typo3-find/zipball/c8d5f2734d608f71af9c76673a5165d9384afae0",
+                "url": "https://api.github.com/repos/subugoe/typo3-find/zipball/b21416b956a84eb3f8cd5f344208d9f632322343",
                 "reference": "c8d5f2734d608f71af9c76673a5165d9384afae0",
                 "shasum": ""
             },
@@ -467,7 +537,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/d22c610d03485f16cbc3b2675c161802456840de",
+                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/74f23e40ef4b839b754fef56cc25d551c38ef06c",
                 "reference": "d22c610d03485f16cbc3b2675c161802456840de",
                 "shasum": ""
             },
@@ -708,6 +778,55 @@
                 "shim"
             ],
             "time": "2016-01-20 09:13:37"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
+                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-03-30 10:41:14"
         },
         {
             "name": "typo3-ter/realurl",
