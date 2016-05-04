@@ -3,6 +3,10 @@
     "description": "GDZ Website",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/dmitryd/typo3-realurl"
+        },
+        {
             "type": "composer",
             "url": "https://composer.typo3.org/"
         },
@@ -12,11 +16,10 @@
         }
     ],
     "require": {
-        "typo3/cms": "^8.0",
+        "typo3/cms": "8.1 as 8.0",
         "subugoe/find": "@dev",
         "subugoe/tmpl-gdz": "@dev",
-        "typo3-ter/realurl": "^2.0",
-        "helhum/typo3-console": "^2.0"
+        "dmitryd/typo3-realurl": "dev-master"
     },
     "license": "AGPL",
     "authors": [
