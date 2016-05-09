@@ -996,12 +996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/subugoe/typo3_tmpl-gdz.git",
-                "reference": "0264a4636e2eab60fa2ee5798d519862239a740b"
+                "reference": "7816bc55665833d53e1a3272e61062dfe08662f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/0264a4636e2eab60fa2ee5798d519862239a740b",
-                "reference": "0264a4636e2eab60fa2ee5798d519862239a740b",
+                "url": "https://api.github.com/repos/subugoe/typo3_tmpl-gdz/zipball/7816bc55665833d53e1a3272e61062dfe08662f6",
+                "reference": "7816bc55665833d53e1a3272e61062dfe08662f6",
                 "shasum": ""
             },
             "type": "typo3-cms-extension",
@@ -1019,7 +1019,7 @@
                 "source": "https://github.com/subugoe/typo3_tmpl-gdz/tree/master",
                 "issues": "https://github.com/subugoe/typo3_tmpl-gdz/issues"
             },
-            "time": "2016-05-03 08:20:17"
+            "time": "2016-05-09 08:36:07"
         },
         {
             "name": "swiftmailer/swiftmailer",
